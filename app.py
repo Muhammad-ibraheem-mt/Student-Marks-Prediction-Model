@@ -3,7 +3,7 @@ import streamlit as st
 import joblib 
 
 
-model = joblib.load('Q:\Project\mp.joblib')
+model = joblib.load('mp.joblib')
 
 st.title('Marks Prediction')
 
